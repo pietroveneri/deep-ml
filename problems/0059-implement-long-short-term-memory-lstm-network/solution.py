@@ -30,10 +30,10 @@ class LSTM:
 		def sigmoid(z):
 			return 1/(1 + np.exp(-z))
 		
-		for i in range(len(x)):
-			x_i = x[i].reshape(self.input_size, 1)
+		for t in range(len(x)):
+			x_t = x[t].reshape(self.input_size, 1)
 
-			combined = np.concatenate((h, x_i), axis=0)
+			combined = np.concatenate((h, x_t), axis=0)
 
 			f = sigmoid(self.Wf @ combined + self.bf)
 			i = sigmoid(self.Wi @ combined + self.bi)
