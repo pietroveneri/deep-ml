@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T09:11:00.488Z",
+  "generated_at": "2026-10-07T10:26:11.896Z",
   "items": {
     "problem:1": {
       "kind": "problem",
@@ -338,6 +338,19 @@
       "last_pushed_at": "2026-10-07T09:10:59.833Z",
       "language": "python",
       "lines": 24
+    },
+    "problem:89": {
+      "kind": "problem",
+      "id": "89",
+      "title": "The Pattern Weaver's Code",
+      "difficulty": "medium",
+      "category": "Deep Learning",
+      "url": "https://www.deep-ml.com/problems/89",
+      "path": "problems/0089-the-pattern-weaver-s-code",
+      "first_solved_at": "2026-10-07T10:26:11.391Z",
+      "last_pushed_at": "2026-10-07T10:26:11.391Z",
+      "language": "python",
+      "lines": 17
     }
   }
 }
